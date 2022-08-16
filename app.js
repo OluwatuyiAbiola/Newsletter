@@ -74,6 +74,4 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("Server is live at port 3000");
 })
 
-// Api key = 3c041551acece01dff8c7d638ce87463-us12
 
-//list id = edf1aa0bec
