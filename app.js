@@ -36,11 +36,11 @@ app.post("/", function(req, res){
     //the data has to be converted to json flat pack format
     const jsonData = JSON.stringify(data);
     //the us12 is the server provided by mailchimp for us
-    const url = "https://us12.api.mailchimp.com/3.0/lists/edf1aa0bec"
+    const url = "https://usX.api.mailchimp.com/3.0/lists/{list-id}"
     //options a http request parameter
     const options = {
         method: "POST",
-        auth: "oluwatuyi1:3c041551acece01dff8c7d638ce87463-us12"
+        auth: "oluwatuyi1:{apikey}"
     } 
     //send a response back to mailchimp unlike requesting in the weather app
     const request =  https.request(url, options, function(response){
