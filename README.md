@@ -2,6 +2,7 @@
 ## A Newsletter SignUp Page
 
 Its a news letter signup page, just input your first name , second name and email and its running on express server and using mailchimp api
+- Link to site http://cryptic-crag-94851.herokuapp.com/
 
 ### Key Points
 
@@ -33,3 +34,4 @@ Its a news letter signup page, just input your first name , second name and emai
 - created a procfile with web: npm start
 - npm starts d script so in our script on package.json add "start": node app.js
 - pushed the site on heroku using hit push heroku master
+- There is an error because of the exposed api Key
